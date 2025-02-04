@@ -1,5 +1,5 @@
-import HttpMethods from './enums/HttpMethods.js';
-import HttpStatusCodes from './enums/HttpStatusCodes.js';
+import HttpMethods from '../support/enum/HttpMethods.js';
+import HttpStatusCodes from '../support/enum/HttpStatusCode.js';
 
 describe('PokéAPI Tests', () => {
   it('should return details for Pikachu', () => {
