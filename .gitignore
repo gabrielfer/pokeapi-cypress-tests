@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# Cypress artifacts
+cypress/screenshots/
+cypress/videos/
+
+# Cypress logs & reports
+cypress/results/
+cypress/logs/
+
+# Environment variables
+.env
+.env.local
+
+# IDE / OS files
+.vscode/
+.DS_Store
+Thumbs.db

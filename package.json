@@ -1,0 +1,17 @@
+{
+  "name": "pokeapi-cypress-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "npx cypress run",
+    "cy:open": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.0.1",
+    "cypress-plugin-api": "^2.11.2"
+  }
+}
