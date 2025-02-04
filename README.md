@@ -35,20 +35,6 @@ Or open the Cypress Test Runner:
 npx cypress open
 ```
 
-📦 pokeapi-cypress-tests
- ┣ 📂 cypress
- ┃ ┣ 📂 e2e
- ┃ ┃ ┣ 📜 v2-pokemon-get.cy.js   # Tests for GET /pokemon
- ┃ ┣ 📂 support
- ┃ ┃ ┣ 📂 enums
- ┃ ┃ ┃ ┣ 📜 httpMethods.js       # Enum for HTTP methods
- ┃ ┃ ┃ ┣ 📜 httpStatusCodes.js   # Enum for status codes
- ┃ ┃ ┣ 📜 commands.js            # Custom Cypress commands
- ┣ 📜 .gitignore
- ┣ 📜 README.md
- ┣ 📜 package.json
- ┣ 📜 cypress.config.js
-
  🔧 Custom Commands
 This project includes a Cypress custom command for making API requests:
 
