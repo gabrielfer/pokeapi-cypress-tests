@@ -17,7 +17,7 @@ describe('PokéAPI Tests', () => {
   });
 
   it('should return 404 Not Found for a POST request', () => {
-    cy.pokeApi(HttpMethods.POST, 'v2/pokemon/invalidPokemon').then((response) => {
+    cy.pokeApi(HttpMethods.POST, 'v2/pokemon/pikachu').then((response) => {
       expect(response.status).to.eq(HttpStatusCodes.NOT_FOUND.code);
     });
   });
